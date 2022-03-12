@@ -1,22 +1,22 @@
 body {
-    margin: auto;
-    padding: 2em;
-    max-width: 700px;
-    display: flex;
-    align-items: flex-start;
-    font-size: 10pt;
-    font-weight: lighter;
-  }
-  
-  div#left-column {
-    flex: 1 1 400px;
-    padding: 1em;
-    line-height: 1.5em;
-  }
-  
-  div#right-column {
-    border-left: black solid 1px;
-    flex: 1 1 600px;
-    padding: 1em;
-    line-height: 1.2em;
-  }
+  margin: auto;
+  padding: em;
+  max-width: 450px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 10pt;
+  font-weight: lighter;
+}
+
+div#left-column {
+  flex: 1 1 400px;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+div#right-column {
+  border-left: black solid 1px;
+  flex: 1 1 600px;
+  padding: 1em;
+  line-height: 1.2em;
+}
